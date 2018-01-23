@@ -2,8 +2,8 @@
 #include<conio.h>
 void main()
 {
- clrscr();
- int a=0,b=1,c,i,n;
+  int a=0,b=1,c,i,n;
+  clrscr();
  printf("\n enter the number");
  scanf("%d",&n);
  printf("\n The number %d%d",a,b);
@@ -13,7 +13,7 @@ void main()
    a=b;
    b=c;
    }
-   printf("\n The factorial of num is %d",c);
+   printf("\n The fibonacci of num is %d",c);
    getch();
    }
  
