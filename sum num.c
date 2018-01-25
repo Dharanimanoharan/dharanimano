@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
- int a,s,k;
+ int a,b,k;
  printf("enter the num"); 
  scanf("%d",&a);
  printf("\n Enter the num");
- scans("%d",&s);
- k=a+s;
+ scans("%d",&b);
+ k=a+b;
  printf("\n The sum is %d",k);
  }
