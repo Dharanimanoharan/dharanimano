@@ -14,7 +14,7 @@ void main()
   n1=n1/10;
   if(n2==rev)
   {
-   printf("\n The num is palindrome")
+   printf("\n The num is palindrome");
    }
    else
    {
