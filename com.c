@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
-int i,count=0,n;
-printf("enter the number:\n");
-scanf("%d\n",&n);
-for(i=2;i<n;i++)
+int j,count=0,n;
+printf("\n enter the number);
+scanf("%d",&n);
+for(j=2;j<n;j++)
 {
-if(n%i==0)
+if(n%j==0)
 {
 count++;    
 }
@@ -20,5 +20,5 @@ else
 {
     printf("no");
 }
-    return 0;
+
 }
