@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-int num,digit,sum=0;
+int number,digit,sum=0;
 clrscr();
 printf("\n Enter the number");
-scanf("%d",&num);
-while(num!=0)
+scanf("%d",&number);
+while(number!=0)
 {
-digit=num%10;
-num=num/10;
+digit=number%10;
+number=number/10;
 sum=sum+digit;
 }
 printf("\n The sum of digit is %d",sum);
